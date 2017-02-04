@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306123271E466F33002AD14F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306123261E466F33002AD14F /* AppDelegate.swift */; };
+		306123291E466F33002AD14F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306123281E466F33002AD14F /* ViewController.swift */; };
+		3061232C1E466F33002AD14F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3061232A1E466F33002AD14F /* Main.storyboard */; };
+		3061232E1E466F33002AD14F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3061232D1E466F33002AD14F /* Assets.xcassets */; };
+		306123391E466F33002AD14F /* Black_ScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306123381E466F33002AD14F /* Black_ScreenTests.swift */; };
+		306123441E466F33002AD14F /* Black_ScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306123431E466F33002AD14F /* Black_ScreenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		306123351E466F33002AD14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3061231B1E466F32002AD14F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306123221E466F32002AD14F;
+			remoteInfo = "Black Screen";
+		};
+		306123401E466F33002AD14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3061231B1E466F32002AD14F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306123221E466F32002AD14F;
+			remoteInfo = "Black Screen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		306123231E466F32002AD14F /* Black Screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Black Screen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		306123261E466F33002AD14F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		306123281E466F33002AD14F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3061232B1E466F33002AD14F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3061232D1E466F33002AD14F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3061232F1E466F33002AD14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306123341E466F33002AD14F /* Black ScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Black ScreenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		306123381E466F33002AD14F /* Black_ScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_ScreenTests.swift; sourceTree = "<group>"; };
+		3061233A1E466F33002AD14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3061233F1E466F33002AD14F /* Black ScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Black ScreenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		306123431E466F33002AD14F /* Black_ScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_ScreenUITests.swift; sourceTree = "<group>"; };
+		306123451E466F33002AD14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		306123201E466F32002AD14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306123311E466F33002AD14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3061233C1E466F33002AD14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3061231A1E466F32002AD14F = {
+			isa = PBXGroup;
+			children = (
+				306123251E466F32002AD14F /* Black Screen */,
+				306123371E466F33002AD14F /* Black ScreenTests */,
+				306123421E466F33002AD14F /* Black ScreenUITests */,
+				306123241E466F32002AD14F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		306123241E466F32002AD14F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				306123231E466F32002AD14F /* Black Screen.app */,
+				306123341E466F33002AD14F /* Black ScreenTests.xctest */,
+				3061233F1E466F33002AD14F /* Black ScreenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		306123251E466F32002AD14F /* Black Screen */ = {
+			isa = PBXGroup;
+			children = (
+				306123261E466F33002AD14F /* AppDelegate.swift */,
+				306123281E466F33002AD14F /* ViewController.swift */,
+				3061232A1E466F33002AD14F /* Main.storyboard */,
+				3061232D1E466F33002AD14F /* Assets.xcassets */,
+				3061232F1E466F33002AD14F /* Info.plist */,
+			);
+			path = "Black Screen";
+			sourceTree = "<group>";
+		};
+		306123371E466F33002AD14F /* Black ScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				306123381E466F33002AD14F /* Black_ScreenTests.swift */,
+				3061233A1E466F33002AD14F /* Info.plist */,
+			);
+			path = "Black ScreenTests";
+			sourceTree = "<group>";
+		};
+		306123421E466F33002AD14F /* Black ScreenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				306123431E466F33002AD14F /* Black_ScreenUITests.swift */,
+				306123451E466F33002AD14F /* Info.plist */,
+			);
+			path = "Black ScreenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		306123221E466F32002AD14F /* Black Screen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306123481E466F33002AD14F /* Build configuration list for PBXNativeTarget "Black Screen" */;
+			buildPhases = (
+				3061231F1E466F32002AD14F /* Sources */,
+				306123201E466F32002AD14F /* Frameworks */,
+				306123211E466F32002AD14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Black Screen";
+			productName = "Black Screen";
+			productReference = 306123231E466F32002AD14F /* Black Screen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		306123331E466F33002AD14F /* Black ScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3061234B1E466F33002AD14F /* Build configuration list for PBXNativeTarget "Black ScreenTests" */;
+			buildPhases = (
+				306123301E466F33002AD14F /* Sources */,
+				306123311E466F33002AD14F /* Frameworks */,
+				306123321E466F33002AD14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306123361E466F33002AD14F /* PBXTargetDependency */,
+			);
+			name = "Black ScreenTests";
+			productName = "Black ScreenTests";
+			productReference = 306123341E466F33002AD14F /* Black ScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3061233E1E466F33002AD14F /* Black ScreenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3061234E1E466F33002AD14F /* Build configuration list for PBXNativeTarget "Black ScreenUITests" */;
+			buildPhases = (
+				3061233B1E466F33002AD14F /* Sources */,
+				3061233C1E466F33002AD14F /* Frameworks */,
+				3061233D1E466F33002AD14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306123411E466F33002AD14F /* PBXTargetDependency */,
+			);
+			name = "Black ScreenUITests";
+			productName = "Black ScreenUITests";
+			productReference = 3061233F1E466F33002AD14F /* Black ScreenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3061231B1E466F32002AD14F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Marinus;
+				TargetAttributes = {
+					306123221E466F32002AD14F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					306123331E466F33002AD14F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 306123221E466F32002AD14F;
+					};
+					3061233E1E466F33002AD14F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 306123221E466F32002AD14F;
+					};
+				};
+			};
+			buildConfigurationList = 3061231E1E466F32002AD14F /* Build configuration list for PBXProject "Black Screen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3061231A1E466F32002AD14F;
+			productRefGroup = 306123241E466F32002AD14F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				306123221E466F32002AD14F /* Black Screen */,
+				306123331E466F33002AD14F /* Black ScreenTests */,
+				3061233E1E466F33002AD14F /* Black ScreenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		306123211E466F32002AD14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3061232E1E466F33002AD14F /* Assets.xcassets in Resources */,
+				3061232C1E466F33002AD14F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306123321E466F33002AD14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3061233D1E466F33002AD14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3061231F1E466F32002AD14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306123291E466F33002AD14F /* ViewController.swift in Sources */,
+				306123271E466F33002AD14F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306123301E466F33002AD14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306123391E466F33002AD14F /* Black_ScreenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3061233B1E466F33002AD14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306123441E466F33002AD14F /* Black_ScreenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		306123361E466F33002AD14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306123221E466F32002AD14F /* Black Screen */;
+			targetProxy = 306123351E466F33002AD14F /* PBXContainerItemProxy */;
+		};
+		306123411E466F33002AD14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306123221E466F32002AD14F /* Black Screen */;
+			targetProxy = 306123401E466F33002AD14F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3061232A1E466F33002AD14F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3061232B1E466F33002AD14F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		306123461E466F33002AD14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		306123471E466F33002AD14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		306123491E466F33002AD14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Black Screen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Private.Black-Screen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3061234A1E466F33002AD14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Black Screen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Private.Black-Screen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3061234C1E466F33002AD14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Black ScreenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Private.Black-ScreenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Black Screen.app/Black Screen";
+			};
+			name = Debug;
+		};
+		3061234D1E466F33002AD14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Black ScreenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Private.Black-ScreenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Black Screen.app/Black Screen";
+			};
+			name = Release;
+		};
+		3061234F1E466F33002AD14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Black ScreenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Private.Black-ScreenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Black Screen";
+			};
+			name = Debug;
+		};
+		306123501E466F33002AD14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Black ScreenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Private.Black-ScreenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Black Screen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3061231E1E466F32002AD14F /* Build configuration list for PBXProject "Black Screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306123461E466F33002AD14F /* Debug */,
+				306123471E466F33002AD14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306123481E466F33002AD14F /* Build configuration list for PBXNativeTarget "Black Screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306123491E466F33002AD14F /* Debug */,
+				3061234A1E466F33002AD14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3061234B1E466F33002AD14F /* Build configuration list for PBXNativeTarget "Black ScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3061234C1E466F33002AD14F /* Debug */,
+				3061234D1E466F33002AD14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3061234E1E466F33002AD14F /* Build configuration list for PBXNativeTarget "Black ScreenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3061234F1E466F33002AD14F /* Debug */,
+				306123501E466F33002AD14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3061231B1E466F32002AD14F /* Project object */;
+}
